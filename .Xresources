@@ -10,7 +10,7 @@ URxvt.foreground:           #808080
 URxvt.fading:               35
 URxvt.fadeColor:            #1c1c1c
 URxvt.perl-ext:             default,url-select,clipboard,keyboard-select
-URxvt.url-select.launcher:  /usr/bin/chromium
+URxvt.url-select.launcher:  /usr/bin/google-chrome-stable
 URxvt.url-select.underline: True
 URxvt.keysym.M-u:           perl:url-select:select_next
 URxvt.keysym.M-Escape:      perl:keyboard-select:activate
