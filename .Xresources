@@ -4,7 +4,9 @@ URxvt.cursorBlink:          true
 URxvt.scrollBar:            false
 URxvt.internalBorder:       2
 URxvt.externalBorder:       0
-URxvt.font:                 xft:Source Code Pro for Powerline:pixelsize=23
+URxvt.font:                 xft:Source Code Pro:pixelsize=23,\
+                            xft:Source Code Pro for Powerline:pixelsize=23,\
+                            xft:DejaVu Sans Mono:pixelsize=23
 URxvt.background:           #1c1c1c
 URxvt.foreground:           #808080
 URxvt.fading:               35
