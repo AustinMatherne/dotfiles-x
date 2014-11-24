@@ -16,6 +16,10 @@ URxvt.keysym.M-v:           perl:clipboard:paste
 *foreground:                #979386
 *fading:                    40
 *fadeColor:                 #1f1f1f
+*font:                      xft:Source Code Pro:pixelsize=22,\
+                            xft:Source Code Pro for Powerline:pixelsize=22,\
+                            xft:DejaVu Sans Mono:pixelsize=22
+
 XLock.mode:                 blank
 XLock.font:                 -xos4-terminus-medium-r-normal--32-320-72-72-c-160-iso10646-1
 XLock.planfont:             -xos4-terminus-medium-r-normal--32-320-72-72-c-160-iso10646-1
