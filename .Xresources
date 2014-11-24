@@ -4,13 +4,6 @@ URxvt.cursorBlink:          true
 URxvt.scrollBar:            false
 URxvt.internalBorder:       2
 URxvt.externalBorder:       0
-URxvt.font:                 xft:Source Code Pro:pixelsize=23,\
-                            xft:Source Code Pro for Powerline:pixelsize=23,\
-                            xft:DejaVu Sans Mono:pixelsize=23
-URxvt.background:           #1c1c1c
-URxvt.foreground:           #808080
-URxvt.fading:               35
-URxvt.fadeColor:            #1c1c1c
 URxvt.perl-ext:             default,url-select,clipboard,keyboard-select
 URxvt.url-select.launcher:  /usr/bin/google-chrome-stable
 URxvt.url-select.underline: True
@@ -19,6 +12,10 @@ URxvt.keysym.M-Escape:      perl:keyboard-select:activate
 URxvt.keysym.M-c:           perl:clipboard:copy
 URxvt.keysym.M-v:           perl:clipboard:paste
 
+*background:                #1f1f1f
+*foreground:                #979386
+*fading:                    40
+*fadeColor:                 #1f1f1f
 XLock.mode:                 blank
 XLock.font:                 -xos4-terminus-medium-r-normal--32-320-72-72-c-160-iso10646-1
 XLock.planfont:             -xos4-terminus-medium-r-normal--32-320-72-72-c-160-iso10646-1
@@ -37,3 +34,4 @@ XLock.usefirst:             false
 XLock.dpmsstandby:          15
 XLock.dpmssuspend:          30
 XLock.dpmsoff:              60
+
