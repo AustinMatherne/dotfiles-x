@@ -5,7 +5,7 @@ URxvt.scrollBar:            false
 URxvt.internalBorder:       2
 URxvt.externalBorder:       0
 URxvt.perl-ext:             default,url-select,clipboard,keyboard-select
-URxvt.url-select.launcher:  /usr/bin/google-chrome-stable
+URxvt.url-select.launcher:  /usr/bin/chromium
 URxvt.url-select.underline: True
 URxvt.keysym.M-u:           perl:url-select:select_next
 URxvt.keysym.M-Escape:      perl:keyboard-select:activate
