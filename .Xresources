@@ -1,3 +1,10 @@
+#include ".config/base16-xresources/xresources/base16-tomorrow-night-256.Xresources"
+
+*fading:                    40
+*font:                      xft:Source Code Pro:pixelsize=22,\
+                            xft:SauceCodePro Nerd Font:pixelsize=22,\
+                            xft:DejaVu Sans Mono:pixelsize=22
+
 URxvt.saveLines:            65535
 URxvt.visualBell:           true
 URxvt.cursorBlink:          true
@@ -11,33 +18,6 @@ URxvt.keysym.M-u:           perl:url-select:select_next
 URxvt.keysym.M-Escape:      perl:keyboard-select:activate
 URxvt.keysym.M-c:           perl:clipboard:copy
 URxvt.keysym.M-v:           perl:clipboard:paste
-
-*background:                #1f1f1f
-*foreground:                #979386
-*fading:                    40
-*fadeColor:                 #1f1f1f
-*cursorColor:               #586e75
-*pointerColorBackground:    #93a1a1
-*pointerColorForeground:    #586e75
-*color0:                    #292929
-*color1:                    #dc322f
-*color2:                    #859900
-*color3:                    #b58900
-*color4:                    #268bd2
-*color5:                    #d33682
-*color6:                    #2aa198
-*color7:                    #eee8d5
-*color8:                    #1f1f1f
-*color9:                    #cb4b16
-*color10:                   #586e75
-*color11:                   #657b83
-*color12:                   #839496
-*color13:                   #6c71c4
-*color14:                   #93a1a1
-*color15:                   #fdf6e3
-*font:                      xft:Source Code Pro:pixelsize=22,\
-                            xft:SauceCodePro Nerd Font:pixelsize=22,\
-                            xft:DejaVu Sans Mono:pixelsize=22
 
 XLock.mode:                 blank
 XLock.font:                 -xos4-terminus-medium-r-normal--32-320-72-72-c-160-iso10646-1
